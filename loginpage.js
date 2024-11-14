@@ -11,7 +11,7 @@ const loginpage = () => {
     };
 
     return (
-        <GoogleOAuthProvider clientId="google_client-id"> {/* replace with google client ID */}
+        <GoogleOAuthProvider clientId="921036108893-aafhs3cdvdctntbi9v3kfv80cfa0kd7n.apps.googleusercontent.com"> {/* replace with google client ID */}
             <div class="container">
                 <div class="image-leftside">
                     <img src={neuOJT} alt="login" />
