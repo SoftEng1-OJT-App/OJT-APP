@@ -25,29 +25,30 @@ const LoginPage = () => {
     const responseGoogle = (credentialResponse) => {
         console.log(credentialResponse);
         // handle login success or failure here 
-
+        window.location.href = '/mainpage';
+    };
     return (
         <GoogleOAuthProvider clientId="921036108893-aafhs3cdvdctntbi9v3kfv80cfa0kd7n.apps.googleusercontent.com">
-        <div className="login-container">
-            <div className="image-leftside">
-                <img src={neucropped}alt="login"/>
-            </div>
-            <div className="login-rightside">
-                <img src={neulogo} alt="neu-logo"></img>
-                <div className="login-header"><p>Welcome to NEU's OJT App!</p></div>
-                <div className="login-subheader"><p>Please log in using your Institutional Email.</p></div>
-                <div class="google-login">
-                    <GoogleLogin
-                        onSuccess={responseGoogle}
-                        onFailure={responseGoogle}
-                        cookiePolicy={'single_host_origin'}
-                    />
+            <div className="login-container">
+                <div className="image-leftside">
+                    <img src={neucropped}alt="login"/>
                 </div>
-            </div>    
-        </div>
+                <div className="login-rightside">
+                    <img src={neulogo} alt="neu-logo"></img>
+                    <div className="login-header"><p>Welcome to NEU's OJT App!</p></div>
+                    <div className="login-subheader"><p>Please log in using your Institutional Email.</p></div>
+                    <div class="google-login">
+                        <GoogleLogin
+                            onSuccess={responseGoogle}
+                            onFailure={responseGoogle}
+                            cookiePolicy={'single_host_origin'}
+                        />
+                    </div>
+                </div>    
+            </div>
         </GoogleOAuthProvider>
     );
-};
+
 export default LoginPage;
 
 /*<GoogleOAuthProvider clientId="921036108893-aafhs3cdvdctntbi9v3kfv80cfa0kd7n.apps.googleusercontent.com"> 
@@ -65,4 +66,4 @@ export default LoginPage;
                     </div>
                 </div>
             </div>
-        </GoogleOAuthProvider> *
+        </GoogleOAuthProvider> 
