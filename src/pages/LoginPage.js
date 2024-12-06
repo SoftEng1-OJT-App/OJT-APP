@@ -26,7 +26,7 @@ const LoginPage = () => {
     const responseGoogle = (credentialResponse) => {
         console.log(credentialResponse);
         // handle login success or failure here 
-        window.location.href = '/mainpage';
+        window.location.href = '/mainpage';};
     
     return (
         <GoogleOAuthProvider clientId="921036108893-aafhs3cdvdctntbi9v3kfv80cfa0kd7n.apps.googleusercontent.com">
@@ -49,7 +49,7 @@ const LoginPage = () => {
             </div>
         </GoogleOAuthProvider>
     );
-};
+
 
 
 }
