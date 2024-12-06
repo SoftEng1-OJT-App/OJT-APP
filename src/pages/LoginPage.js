@@ -5,7 +5,7 @@ import neucropped from '../assets/neu-cropped.jpg';
 import {GoogleOAuthProvider, GoogleLogin} from '@react-oauth/google';
 import {useNavigate} from 'react-router-dom';
 import './LoginPage.css';
-export default LoginPage;
+
 
 const LoginPage = () => {
 
@@ -53,3 +53,4 @@ const LoginPage = () => {
 
 
 }
+export default LoginPage;
