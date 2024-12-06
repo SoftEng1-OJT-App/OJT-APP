@@ -5,6 +5,7 @@ import neucropped from '../assets/neu-cropped.jpg';
 import {GoogleOAuthProvider, GoogleLogin} from '@react-oauth/google';
 import {useNavigate} from 'react-router-dom';
 import './LoginPage.css';
+export default LoginPage;
 
 const LoginPage = () => {
 
@@ -49,21 +50,6 @@ const LoginPage = () => {
         </GoogleOAuthProvider>
     );
 };
-export default LoginPage;
 
-/*<GoogleOAuthProvider clientId="921036108893-aafhs3cdvdctntbi9v3kfv80cfa0kd7n.apps.googleusercontent.com"> 
-            <div class="container">
-                <div class="image-leftside">
-                    <img src={neuOJT} alt="login" />
-                </div>
-                <div class="login-rightside">
-                    <img src={neulogo} alt="neu-logo"></img>
-                    <h1>Welcome to NEU's OJT App!</h1>
-                    <p>Please log in using your Institutional Email.</p>
-                    <div className="login-button">
-                        <button onClick={handleLoginClick}>Login</button>
 
-                    </div>
-                </div>
-            </div>
-        </GoogleOAuthProvider> 
+}
