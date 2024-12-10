@@ -63,7 +63,7 @@ const LoginPage = () => {
                             onSuccess={responseGoogle}
                             onFailure={responseGoogle}
                             cookiePolicy={'single_host_origin'}
-                            redirectUri="http://localhost:3000/auth/callback" // ensure this matches the Google Cloud Console URI
+                            redirectUri="https://ojtapprepository-pfnt5l7aa-cinque-allisons-projects.vercel.app/mainpage" // ensure this matches the Google Cloud Console URI
                         />
                     </div>
                 </div>    
