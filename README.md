@@ -1,17 +1,70 @@
-## New Era University's OJT Portal: A Pioneering Platform for Seamless On-the-Job Training Management
-> This web application enables students to log in with their institutional emails, upload required documents, and generate endorsement letters for their chosen companies once validated by administrators.
-> It's efficient and user-friendly, making the OJT process smooth for everyone involved. This is a testament to NEU's commitment to innovation and excellence in education.
-> By bridging the gap between administrative processes and student needs, the portal sets a new standard for OJT
-> management and prepares students for their future careers with unparalleled support and efficiency.
+# Getting Started with Create React App
 
-### **Secure Login with Institutional Email**  
-The portal champions privacy and security by mandating the use of institutional email addresses for login. This feature not only reinforces the exclusivity of the platform to the NEU community but also safeguards user information and maintains the integrity of the OJT process.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### **Effortless Requirement Submission**  
-Students can upload essential documents such as Parental Consent, Medical and Psychological Exam results, and their Resume. The intuitive interface of the portal simplifies the submission process, making it accessible and user-friendly.
+## Available Scripts
 
-### **Administrative Oversight and Validation**  
-Administrators can review and validate student submissions. The portal's backend is designed to streamline the validation process, allowing administrators to manage and approve student requirements efficiently.
+In the project directory, you can run:
 
-### **Instant Endorsement Letter Generation**  
-Upon validation, students will be able to generate a printable endorsement letter for their chosen company. This feature eliminates the wait and hassle typically associated with manual endorsement processes, providing a swift transition from preparation to participation in the OJT program.
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
