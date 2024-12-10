@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJT APP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            float: left;
+            width: 20%;
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        .sidebar a {
+            display: block;
+            color: #000;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .main-content {
+            margin-left: 20%;
+            padding: 10px;
+        }
+        .main-content input[type="text"], .main-content input[type="email"] {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 50%;
+        }
+        .main-content button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .main-content button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>OJT APP</h2>
+        <a href="#">Home</a>
+        <a href="#">Edit Information</a>
+        <a href="#">Upload Requirements</a>
+        <a href="#">Endorsement Letter</a>
+    </div>
+    <div class="main-content">
+        <h2>GenerateLetter</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button onclick="generateLetter()">Generate Letter</button>
+    </div>
+
+    <script>
+        function generateLetter() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+
+            if (name === "" || email === "") {
+                alert("Please fill in both fields.");
+                return;
+            }
+
+            var letterContent = `Dear ${name},
+
+This is your endorsement letter.
+
+Best regards,
+OJT APP Team`;
+
+            var blob = new Blob([letterContent], { type: "text/plain;charset=utf-8" });
+            var link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "Endorsement_Letter.txt";
+            link.click();
+        }
+    </script>
+</body>
+</html>
