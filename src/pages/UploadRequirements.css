@@ -1,0 +1,95 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+.upload-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+.requirements-table-container {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+.requirements-table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    }
+
+.table-header {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    }
+
+.file-row {
+    display: flex;
+    align-items: center;
+    }
+
+.upload-input {
+    margin-right: 10px;
+    }
+
+.file-name {
+    margin-right: 10px;
+    font-size: 14px;
+    }
+
+.remove-file {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    }
+
+.status-valid {
+    color: green;
+    }
+
+.status-invalid {
+    color: red;
+    }
+
+.moa-validation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.moa-validation-button {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+background-color: #007BFF;
+color: white;
+border-radius: 5px;
+}
+
+.moa-validation-button.disabled {
+background-color: #CCCCCC;
+cursor: not-allowed;
+}
+
+.moa-validation-button.enabled {
+background-color: #28a745;
+}

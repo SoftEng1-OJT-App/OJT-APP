@@ -1,0 +1,88 @@
+.endorsement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .endorsement-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .endorsement-requirements {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .requirements-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .requirements-table th, 
+  .requirements-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .requirements-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .status-completed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-uncompleted {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .endorsement-note {
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .generate-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #048404;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-button:hover {
+    background-color: #036603;
+  }
+  
+  .endorsement-output {
+    width: 80%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
